@@ -1,0 +1,39 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+.search {
+        margin-left: 5px;
+        margin-top: 5px;
+        border: 0.1px solid gray;
+        border-radius: 20px;
+        width: max-content;
+        overflow: hidden;
+}
+
+button {
+        border: none;
+        cursor: pointer;
+        background-color: white;
+}
+
+button i {
+        height: 20px;
+        width: 25px;
+        color: rgb(63, 21, 21);
+        margin-right: 7px;
+}
+
+input {
+        height: 35px;
+        margin-left: 5px;
+        border: none;
+        text-align: center;
+        width: 0px;
+        transition: width 0.5s;
+}
+
+.search:hover > input {
+        width: 200px;
+}
